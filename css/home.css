@@ -1,0 +1,121 @@
+.conteiner {
+    display: block;
+    padding: 1em;
+}
+
+.banner {
+    display: block;
+    margin: auto;
+    background-image: url("/img/banner.png");
+    width: 1366px;
+    height: 354px;
+}
+
+.titulo_principal {
+    font-size: 64px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    padding: 0.5em;
+}
+
+.conteiner_subtitlo {
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    height: 256 px;
+    background-color: var(--amarelo);
+}
+
+.conteiner_subtitlo span {
+    display: block;
+    padding: 0.1em;
+    margin: 0.5em 15em 0.5em 15em;
+    opacity: .1;
+    background-color: black;
+}
+
+.subtitulo {
+    font-size: 30px;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    padding: 0.5em;
+}
+
+#navegacao_facilitada {
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5em;
+}
+.bloco {
+    width: 363px;
+    height: 671px;
+    background-color: var(--cinza);
+    border-radius: 10px;
+}
+
+.placeholderimg2 {
+    display: block;
+    margin: auto;
+    margin-top: 3em;
+    width: 279px;
+    height: 319px;
+    background-image: url("/img/acessibilidade_icon.png");
+}
+
+.figura {
+    display: block;
+    margin: auto;
+    margin-top: 3em;
+    width: 279px;
+    height: 319px;
+    object-fit: cover;
+    background-color: var(--branco);
+}
+
+.subtitulo_imagem {
+    text-align: center;
+    font-size: 42px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    padding: 14px;
+}
+
+.descricao {
+    font-size: 32px;
+    font-family: 'Inter', sans-serif;
+    margin: auto;
+    width: 277px;
+    height: 168px;
+    text-align: center;
+}
+
+.icones img {
+    width: 13%;
+}
+
+.icones {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 428px) {
+    .placeholderimg1 {
+        width: 80%;
+        height: 125px;
+    }
+    .titulo_principal {
+        font-size: 33px;
+        font-family: 'Inter', sans-serif;
+    }
+    #subtitulo {
+        font-size: 16px;
+        font-family: 'Inter', sans-serif;
+    }
+    .navegacao_facilitada {
+        flex-direction: column;
+        display: grid;
+    }
+    #bloco {
+        margin: 1.5em;
+    }
+}

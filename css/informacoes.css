@@ -1,0 +1,124 @@
+.titulo-info {
+    display: inline-block;
+    padding: 1.5em 0em 1em 0em;
+    text-align: center;
+    width: 100%;
+}
+
+
+.caixinha {
+    width: 472px;
+    height: 607px;
+    background-image: url("/img/caixinha.png");
+    margin: 15px;
+    float: left;
+}
+
+.titulo-info h1 {
+    display: inline-block;
+    font-size: 47px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+
+.titulo-info p{
+    text-align: justify;
+    font-size: 47px;
+    font-family: 'Inter', sans-serif;
+    padding: 0.65em;
+}
+
+.placeholderanimacao {
+    width: 99%;
+    padding: 5px;
+    background-repeat: no-repeat;
+    height: 258px;
+    display: block;
+    background-position: center;
+    background-image: url(/img/Teste3.gif);
+}
+
+h2 {
+    text-align: center;
+    font-size: 75px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    padding: 0% 0% 2.5%;
+}
+
+.visual {
+    font-size: 200px;
+    font-family: 'Inter', sans-serif;
+    padding: 0 2% 0 2%;
+    display: inline-block;
+}
+.caixa-de-texto {
+    width: 75%;
+    height: 120px;
+    padding: 1em;
+    vertical-align: top;
+    display: inline-block;
+    font-size: 36px;
+    font-family: 'Inter', sans-serif;
+}
+
+iframe {
+    margin: auto;
+    height: 550px;
+    display: block;
+    width: 80%;
+}
+
+h4 {
+    text-align: center;
+    font-size: 64px;
+    font-family: 'Inter', sans-serif;
+    padding: 0.2em;
+}
+
+.separador {
+    display: flex;
+    width: 100%;
+    height: 0.1em;
+    margin: 3em 0em 2em;
+    background-color: #692E2E;
+}
+
+.caixa-de-texto-precos {
+    padding: 0em 0em 0em 4em;
+    width: 610px;
+    height: 613px;
+    display: inline-block;
+}
+
+h5 {
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    display: inline;
+}
+
+ .caixa-de-texto-precos p {
+    text-indent: 1em;
+    text-align: left;
+    font-size: 36px;
+    font-family: 'Inter', sans-serif;
+    padding: 0.1em 0em 0em 0em;
+ }
+
+ .caixa-de-texto-precos section {
+    text-indent: 1em;
+    text-align: left;
+    font-size: 36px;
+    font-family: 'Inter', sans-serif;
+    padding: 0.1em 0em 0em 0em
+ }
+
+ .roupas {
+    width: 472px;
+    display: inline-block;
+    height: 607px;
+    background-image: url("/img/roupas.png");
+    float: right;
+    margin: 0em 3em 0em 0em;
+ }

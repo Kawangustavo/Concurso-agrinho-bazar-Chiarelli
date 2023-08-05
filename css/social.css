@@ -1,0 +1,71 @@
+.caridade {
+    height: 360px;
+    display: inline;
+    width: 656px;
+    float: right;
+    padding: 3em 4em 0em 0em;
+}
+
+.caridade p {
+    font-size: 36px;
+    text-align: right;
+    font-family: 'Inter', sans-serif;
+}
+
+.molde {
+    display: inline-block;
+    width: 624px;
+    height: 593px;
+    position: absolute;
+}
+
+.camisa {
+    position: relative;
+    padding: 1em 0em 2em 4em;
+}
+
+.discurso {
+    margin: 0em 0em 10em;
+}
+
+.discurso h1 {
+    text-align: center;
+    font-size: 64px;
+    font-family: 'Inter', sans-serif;
+    padding: 1vw;
+}
+
+.discurso h1 strong {
+    font-weight: 700;
+}
+
+.textodebaixo {
+    width: 682px;
+    display: inline-block;
+    padding: 0em 0em 0em 2em;
+    vertical-align: top;
+}
+
+.textodebaixo p {
+    font-size: 45px;
+    font-family: 'Inter', sans-serif;
+    text-align: left;
+}
+
+.textodebaixo :nth-child(2) {
+    padding: 1em 0em 0em 0em;
+}
+
+.comunidade {
+    float: right;
+    display: inline-block;
+    margin: 0em 3em 0em 0em;
+    background-image: url("/img/comunidade.png");
+    width: 498px;
+    height: 571px;
+}
+
+.carrosel article {
+    text-align: center;
+    font-size: 48px;
+}
